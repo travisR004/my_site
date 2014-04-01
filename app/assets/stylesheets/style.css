@@ -208,7 +208,7 @@
 			{
 				float: left;
 				margin: 0 0 2em 0;
-				padding-right: 25px;
+				padding-right: 50px;
 			}
 			
 			.image.left
@@ -917,7 +917,7 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 325px;
+		width: 275px;
 		height: 100%;
 		color: black;
 		background: #222729;
@@ -1032,7 +1032,6 @@
 					{
 						position: relative;
 						display: block;
-						font-size: 0.8em;
 					}
 					
 						#nav ul li a span:before
@@ -1141,4 +1140,8 @@
 		
 		section {
 			max-width: 800px;
+		}
+		
+		.right {
+		  float: left;	
 		}
