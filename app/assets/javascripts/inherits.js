@@ -465,7 +465,7 @@
   var Asteroids = root.Asteroids = ( root.Asteroids || {} );
   var FPS = 25;
   var DIM_X = 700;
-  var DIM_Y = 700;
+  var DIM_Y = 600;
   var buildAsteroids = 5;
   var score = 0;
 
