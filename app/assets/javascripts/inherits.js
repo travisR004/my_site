@@ -354,8 +354,10 @@
   var SPEED = 15;
 
   var Asteroid = Asteroids.Asteroid = function(pos, vel, radius) {
+		colors = ["red", "orange", 'blue', "purple"]
+		color = colors[Math.round(Math.random() * colors.length)]
     Asteroids.MovingObject.call(this, pos, vel,
-      Math.random() * RADIUS + 10, COLOR);
+      Math.random() * RADIUS + 10, color);
     if (radius){this.radius = radius}
   }
 
@@ -434,7 +436,7 @@
 (function(root) {
   var Asteroids = root.Asteroids = (root.Asteroids || {});
 
-  var RADIUS = 3;
+  var RADIUS = 2;
   var COLOR = "red";
 
   var Bullet = Asteroids.Bullet = function(pos, vel) {
